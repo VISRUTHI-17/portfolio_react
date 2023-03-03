@@ -1,0 +1,58 @@
+.edu-container{
+    font-size: 2rem;
+    position: relative;
+    display: block;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    /* background-color: blue; */
+}
+.rect{
+    
+    margin-top: 5%;
+    font-size: 0.9rem;
+    margin-left: 10%;
+    padding-top: 30px;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    color: aliceblue;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    column-count: 3;
+    column-gap: 200px;
+    column-rule: 0.2px solid aliceblue;
+}
+
+.progress-bar{
+    width: 100px;
+    height: 100px;
+}
+
+
+.logo1{
+    width: 120px;
+    height: 100px;
+}
+
+
+
+@media screen and (max-width:1040px) {
+.edu-container {
+        font-size: 1rem;
+}
+.rect {
+    font-size: 0.55rem;
+    column-gap: 40px;
+}
+.logo1 {
+    width: 100px;
+    height: 80px;
+}
+.progress-bar {
+    width: 80px;
+    height: 80px;
+}
+
+}
