@@ -1,3 +1,22 @@
+.main-about{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid yellow;
+}
+
+.main-about-left{
+    font-size: 3em;
+    border: 1px solid red;
+    display: flex;
+
+}
+
+.about-underline{
+    border-bottom: 3px solid #059DC0;
+}
+
 .content1 {
     text-align: left;
     position: absolute;

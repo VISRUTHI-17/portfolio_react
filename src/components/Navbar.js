@@ -7,6 +7,7 @@ import { IoIosClose } from "react-icons/io";
 const Navbar = (props) => {
   const [click, setclick] = useState(false);
   const handleClick = () => setclick(!click);
+  const [hover,sethover] = useState([true, false,false,false]);
 
   const [color, setcolor] = useState(false);
   const changeColor = () => {
@@ -17,9 +18,10 @@ const Navbar = (props) => {
     }
   };
 
-  const close = (fun) => {
+  const close = (fun, arr) => {
     console.log(fun);
     setclick(false);
+    sethover(arr);
     setTimeout(() => fun(),500);
   }
   window.addEventListener("scroll", changeColor);
@@ -31,16 +33,16 @@ const Navbar = (props) => {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link onClick={() => close(props.doIt.click1)}>Home</Link>
+          <Link  className={hover[0]?"underline":""} onClick={()=>close(props.doIt.click1, [true, false,false,false])} >Home</Link>
         </li>
         <li>
-          <Link onClick={() => close(props.doIt.click2)}>About</Link>
+          <Link className={hover[1]?"underline":""} onClick={() =>close(props.doIt.click2, [false, true,false,false])}>About</Link>
         </li>
         <li>
-          <Link onClick={props.doIt.click3}>Skills</Link>
+          <Link className={hover[2]?"underline":""} onClick={() =>close(props.doIt.click3, [false, false,true,false])}>Skills</Link>
         </li>
         <li>
-          <Link onClick={props.doIt.click3}>Work</Link>
+          <Link className={hover[3]?"underline":""} onClick={() =>close(props.doIt.click4, [false, false ,false,true])}>Work</Link>
         </li>
       </ul>
       <div className="giham" onClick={handleClick}>

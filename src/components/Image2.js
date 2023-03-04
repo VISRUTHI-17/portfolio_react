@@ -8,17 +8,24 @@ const Image2 = () => {
       <div className="mask1">
         <img className="into-img1" src={Introimg1} alt={"Intro Image3"} />
       </div>
-      <div className="content1">
-        <p>Flutter/ React / UI/UX Designer</p>
-        <h1>VENKAT RAMAN S P</h1>
-        <p className="descritpion">
-          A tech enthusiast love to learn and develop software projects on
-          various domains. The ultimate goal is to make technology available for
-          everyone.
-        </p>
+      <div className="main-about">
+        <div className="main-about-left">
+          <p className="about-underline">Abou</p> <p>t me</p>
+        </div>
+        <div className="main-about-right"></div>
+
       </div>
     </div>
   );
 };
 
 export default Image2;
+
+
+{/* <div className="content1">
+        <p>Flutter/ React / UI/UX Designer</p>
+        <h1>VISRUTHI N</h1>
+        <p className="descritpion">
+        A diligent and tech enthusiastic, ambitious one to join as a Software Developer to provide best solutions and quality products for the development of society.
+        </p>
+      </div> */}
