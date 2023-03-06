@@ -16,7 +16,6 @@ const Image1 = () => {
           <div className="button">Download CV</div>
         </div>
         <div className="image-right">
-          <p>gw7hxjdid</p>
         </div>
       </div>
   );

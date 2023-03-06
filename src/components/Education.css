@@ -1,4 +1,44 @@
-.edu-container{
+.main-education{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+}
+
+.education-title{
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+.education-title {
+    position: relative;
+    line-height: 1.2em;
+  }
+
+.education-title:before{
+        
+    position: absolute;
+    left: 15%;
+    top: 1.2em;
+    height: 0;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    border-top: 3px solid #059DC0;
+  
+}
+
+
+
+
+
+
+
+
+
+/* .edu-container{
     font-size: 2rem;
     position: relative;
     display: block;
@@ -7,7 +47,7 @@
     width: 100%;
     text-align: center;
     /* background-color: blue; */
-}
+/* }
 .rect{
     
     margin-top: 5%;
@@ -28,17 +68,17 @@
 .progress-bar{
     width: 100px;
     height: 100px;
-}
+} */
 
 
-.logo1{
+/* .logo1{
     width: 120px;
     height: 100px;
-}
+} */
 
 
 
-@media screen and (max-width:1040px) {
+/* @media screen and (max-width:1040px) {
 .edu-container {
         font-size: 1rem;
 }
@@ -55,4 +95,4 @@
     height: 80px;
 }
 
-}
+}  */

@@ -15,8 +15,10 @@
 }
 .p-text{
     font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
 }
 .button{
+    font-family: 'Roboto', sans-serif;
     height: 15%;
     width: 30%;
     background-color: #059DC0;
@@ -35,7 +37,9 @@
 }
 
 
-
+.text{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 

@@ -1,21 +1,20 @@
 import React from "react";
 import "./Image2.css";
-import Introimg1 from "../assets/img2.png";
+import Introimg1 from "../assets/img2.jpg";
+import about from "./data.js";
 
 const Image2 = () => {
   return (
-    <div className="Img2">
-      <div className="mask1">
-        <img className="into-img1" src={Introimg1} alt={"Intro Image3"} />
-      </div>
-      <div className="main-about">
+      <div className="main-about" style={{backgroundImage:`url(${Introimg1})`}}>
         <div className="main-about-left">
-          <p className="about-underline">Abou</p> <p>t me</p>
+          <p className="text-underline">About me</p>
         </div>
-        <div className="main-about-right"></div>
+        <div className="main-about-right">
+        <p className="descritpion">{about}</p>
+        <div className="button-my-works">View Works</div>
 
-      </div>
-    </div>
+        </div>
+        </div>
   );
 };
 

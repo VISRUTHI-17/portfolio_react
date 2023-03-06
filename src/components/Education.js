@@ -9,7 +9,15 @@ import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const Education = () => {
   return (
-    <div className="edu-container">
+    <div className="main-education">
+      <p className="education-title">Education</p>
+    </div>
+  );
+};
+
+export default Education;
+
+{/* <div className="edu-container">
       <h1>Education</h1>
       <div className="rect">
         <div>
@@ -121,8 +129,4 @@ const Education = () => {
           </AnimatedProgressProvider>
         </div>
       </div>
-    </div>
-  );
-};
-
-export default Education;
+    </div> */}
