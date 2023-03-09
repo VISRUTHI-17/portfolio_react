@@ -1,17 +1,37 @@
 import React from "react";
 import "./Education.css";
-import logo1 from "../assets/img3.png";
-import logo2 from "../assets/img4.png";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import { easeQuadInOut } from "d3-ease";
 import "react-circular-progressbar/dist/styles.css";
-import AnimatedProgressProvider from "./AnimatedProgressProvider";
+import Slide from "./slide";
+
 
 const Education = () => {
   return (
     <div className="main-education">
-      <p className="education-title">Education</p>
+      <div className="column">
+        <div><p className="education-title">Education</p></div>
+        <div className="bottom">
+        <Slide/>
+          {/* <div className="secondary">
+            <div className="first">
+              <img className="img-scl" src={logo1} />
+              <p className="education-text">Secondary & Higher Secondary Education</p>
+            </div>
+            <div>
+              <p className="second">Details</p>
+            </div>
+
+          </div> */}
+          {/* <div className="secondary">
+            <img className="img-college" src={logo2} />
+            <p className="education-text">Bachelor of Technology</p>
+          </div> */}
+        </div>
+      </div>
+      <div>
+
+      </div>
     </div>
+
   );
 };
 

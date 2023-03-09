@@ -1,0 +1,105 @@
+.scenes {
+    position: relative;
+    /* aspect-ratio: 2.4 / 1; */
+    height: 50vh;
+    width: 30%;
+    outline: 2px solid #059DC0;
+    border-radius: 10%;
+    margin: 2%;
+
+
+  }
+  
+  .scene-1, .scene-2 {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    border-radius: 10%;
+  }
+  
+  .scene-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.education-text{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.img-scl{
+    height: 40vh;
+    width: 60% ;
+    border-radius: 20px;
+    
+}
+.img-college{
+    
+    height: 35vh;
+    width: 50% ;
+    border-radius: 20px;
+}
+  
+  .scene-2 {
+    background-color: black;
+    mask-image: linear-gradient(
+      to right,
+      transparent 47.5%,
+      #fff 52.5%
+    );
+    mask-size: 210%;
+    mask-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .scenes:is(:hover, :focus) .scene-2 {
+    mask-position: right;
+    transition: -webkit-mask-position 500ms linear;
+  }
+  
+  
+  .scene-1{
+    top: 0;
+    left: 0;
+    color: #000;
+    text-align: left;
+  }
+  
+  .scene-2 {
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: right;
+  }
+  
+  /* everything else */
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+.percent-div{
+  height: 50px;
+  width: 50px;
+}
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%
+  }
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
