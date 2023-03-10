@@ -1,9 +1,9 @@
 import React from "react";
 import "./Skill.css";
 import { SiFlutter } from "react-icons/si";
-import { SiFlask } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
-import { SiDjango } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+
 import { SiReact } from "react-icons/si";
 
 
@@ -22,7 +22,7 @@ const Skill = () => {
 
  return (
    <div className="cont2">
-     <h1>Skills</h1>
+     <div><p className="skills-title">Skills</p></div>
      <div className="cards">
        <div className="sample">
          <div className="card">
@@ -39,8 +39,8 @@ const Skill = () => {
          <div className="card">
            <div className="card-inner">
              <div className="card-front">
-               <SiFlask className="Logo" style={{ color: "aliceblue" }} />
-               <h4>FLASK</h4>
+               <SiNodedotjs className="Logo" style={{ color: "green" }} />
+               <h4>NODE JS</h4>
              </div>
              <div className="card-back">
                <ProgressBar progress={60} />
@@ -50,8 +50,8 @@ const Skill = () => {
          <div className="card">
            <div className="card-inner">
              <div className="card-front">
-               <SiFirebase className="Logo" style={{ color: "#FFA611" }} />
-               <h4>FIREBASE</h4>
+               <SiMongodb className="Logo" style={{ color: "lightgreen" }} />
+               <h4>MONGO DB</h4>
              </div>
              <div className="card-back">
                <ProgressBar progress={60} />
@@ -60,17 +60,6 @@ const Skill = () => {
          </div>
        </div>
        <div class="sample">
-         <div className="card">
-           <div className="card-inner">
-             <div className="card-front">
-               <SiDjango className="Logo" style={{ color: "#092e20" }} />
-               <h4>DJANGO</h4>
-             </div>
-             <div className="card-back">
-               <ProgressBar progress={50} />
-             </div>
-           </div>
-         </div>
          <div className="card">
            <div className="card-inner">
              <div className="card-front">

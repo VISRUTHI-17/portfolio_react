@@ -10,16 +10,24 @@ const Slide = () => {
             <div class="scenes" tabindex="0">
                 <div class="scene-1">
                 <img className="img-scl" src={logo1} />
-                <p className="education-text">Secondary & Higher Secondary Education</p>
+                <p className="education-text">Secondary Education</p>
                 </div>
                 <div class="scene-2">
                     <p>Velammal Vidyalaya CBSE Theni</p>
-                    <div className="percent-div">
-                    <Percentage/>
-                    </div>
-                    
+                    <Percentage value={92}/>
                 </div>
                
+            </div>
+            <div class="scenes" tabindex="0">
+                <div class="scene-1">
+                <img className="img-scl" src={logo1} />
+                <p className="education-text">Higher Secondary Education</p>
+                </div>
+                <div class="scene-2">
+                <p>Velammal Vidyalaya CBSE Theni</p>
+                    <Percentage value={84.4}/>
+                </div>
+                
             </div>
             <div class="scenes" tabindex="0">
                 <div class="scene-1">
@@ -29,7 +37,7 @@ const Slide = () => {
                 <div class="scene-2">
                     <p>Bannari Amman Institute of Technology</p>
                     <p>B Tech Computer Technology</p>
-                    <Percentage/>
+                    <Percentage value={90.9}/>
                 </div>
                 
             </div>

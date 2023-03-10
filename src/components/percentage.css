@@ -55,18 +55,18 @@
 {
   color:#777;
   font-weight:700;
-  font-size:40px;
+  font-size:30px;
   transition:0.5s;
 }
 .card1:hover .percent .num h2
 {
   color:#fff;
-  font-size:60px;
+  font-size:40px;
 }
 .percent .num h2 span
 {
   color:#777;
-  font-size:24px;
+  font-size:20px;
   transition:0.5s;
 }
 .card1:hover .percent .num h2 span
@@ -102,6 +102,6 @@ svg circle:nth-child(2)
 }
 .card1:nth-child(1) svg circle:nth-child(2)
 {
-  stroke-dashoffset:calc(440 - (440 * 90) / 100);
-  stroke:#00ff43;
+  /* stroke-dashoffset:calc(440 - (440 * 90) / 100); */
+  stroke:#059DC0;
 }
