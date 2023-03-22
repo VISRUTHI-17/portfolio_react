@@ -14,27 +14,26 @@ const Footer = () => {
     <div className="footer">
       <div className="center">
         <div className="row">
-          <FaHome size={20} style={{ color: "white" }} />
+          <FaHome className="logo-css"  style={{ color: "white" }} />
           <p>
-            9/2, 2nd Street, North Balabagya nagar, Tirunelveli junction
-            Tamilnadu
+           D 47K 9A W31,Sukkangalpatti Road,Municipal Off Back Side,Cumbum.
           </p>
         </div>
         <div className="row">
-          <FaPhoneAlt size={20} style={{ color: "white" }} />
-          <p>91+ 9443365495</p>
-          <IoMdMail size={20} style={{ color: "white" }} />
-          <p>venkatsp2002@gmail.com</p>
+          <FaPhoneAlt className="logo-css"  style={{ color: "white" }} />
+          <p>91+ 7010144224</p>
+          <IoMdMail className="logo-css" style={{ color: "white" }} />
+          <p>visruthi2003@gmail.com</p>
         </div>
         <div className="row">
-          <a href={"https://www.linkedin.com/in/venkat-raman-s-p-481861205/"}>
-            <IoLogoLinkedin size={40} style={{ color: "#0A66C2" }} />
+          <a href={"https://www.linkedin.com/in/visruthi-n-235987245/"}>
+            <IoLogoLinkedin className="logo-css"  style={{ color: "#0A66C2" }} />
           </a>
-          <a href={"https://github.com/venkatsp17"}>
-            <IoLogoGithub size={40} style={{ color: "white" }} />
+          <a href={"https://github.com/VISRUTHI-17"}>
+            <IoLogoGithub className="logo-css" style={{ color: "white" }} />
           </a>
-          <a href={"https://www.instagram.com/venkat_s_p/"}>
-            <IoLogoInstagram size={40} style={{ color: "#d62976" }} />
+          <a href={"https://www.instagram.com/_linch.pin_29/"}>
+            <IoLogoInstagram className="logo-css" style={{ color: "#d62976" }} />
           </a>
         </div>
       </div>

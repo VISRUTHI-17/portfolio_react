@@ -42,8 +42,9 @@ const Navbar = (props) => {
           <Link className={hover[2]?"underline":""} onClick={() =>close(props.doIt.click3, [false, false,true,false])}>Skills</Link>
         </li>
         <li>
-          <Link className={hover[3]?"underline":""} onClick={() =>close(props.doIt.click4, [false, false ,false,true])}>Work</Link>
+          <Link className={hover[3]?"underline":""} onClick={() =>close(props.doIt.click4, [false, false ,false,true])}>Projects</Link>
         </li>
+        
       </ul>
       <div className="giham" onClick={handleClick}>
         {click ? (
