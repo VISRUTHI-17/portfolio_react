@@ -24,31 +24,30 @@
         padding: 1.5rem;
         perspective: 1000px; 
 }
-.card-inner{
+/* .card-inner{
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-}
-.card:hover .card-inner{
+} */
+/* .card:hover .card-inner{
     transform: rotateY(180deg);
-}
-.card-front,
-.card-back {
-    position: absolute;
+} */
+.card-front{
+    position: relative;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     /* Safari */
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
 }
-.card-back {
+/* .card-back {
     position: relative;
     background-color: orange;
     transform: rotateY(180deg);
-}
+} */
 
 .card h4{
     color: aliceblue;

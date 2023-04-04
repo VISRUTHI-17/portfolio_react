@@ -36,6 +36,7 @@
 }
 
 .project-work{
+    margin-top: 5%;
     height: 60vh;
     width: 70%;
     display: flex;
@@ -49,5 +50,27 @@
     width: 40%;
     border: 3px solid #059DC0;
     border-radius: 20px;
-    
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden; 
+}
+
+.icon1{
+    height: 260px;
+    width: 210px;
+}
+
+.rest-div:hover .rest-div{
+    transform: rotateY(180deg);
+}
+
+.rest-back {
+    position: relative;
+    background-color: orange;
+    transform: rotateY(180deg);
 }
