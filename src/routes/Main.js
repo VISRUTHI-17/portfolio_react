@@ -39,7 +39,7 @@ const Main = () => {
         <Home />
       </div>
       <div className="mainabc" ref={ref1}>
-        <About />
+        <About work={clicks} />
       </div>
       <div className="mainabc" ref={ref2}>
         <Skill />

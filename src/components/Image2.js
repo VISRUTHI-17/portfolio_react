@@ -1,20 +1,28 @@
-import React from "react";
+import React,{ useRef}  from "react";
 import "./Image2.css";
 import Introimg1 from "../assets/img2.jpg";
 import about from "./data.js";
 
-const Image2 = () => {
-  return (
-      <div className="main-about" style={{backgroundImage:`url(${Introimg1})`}}>
-        <div className="main-about-left">
-          <p className="text-underline">About me</p>
-        </div>
-        <div className="main-about-right">
-        <p className="descritpion">{about}</p>
-        <div className="button-my-works">View Works</div>
 
-        </div>
-        </div>
+const Image2 = (props) => {
+  const close = (fun) => {
+    console.log(fun);
+    setTimeout(() => fun(),500);
+  }
+  
+
+ 
+  return (
+    <div className="main-about" style={{ backgroundImage: `url(${Introimg1})` }}>
+      <div className="main-about-left">
+        <p className="text-underline">About me</p>
+      </div>
+      <div className="main-about-right">
+        <p className="descritpion">{about}</p>
+        <div className="button-my-works" onClick={()=>close(props.button)}>View works</div>
+
+      </div>
+    </div>
   );
 };
 
