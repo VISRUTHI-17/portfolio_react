@@ -1,4 +1,4 @@
-import React,{ useRef}  from "react";
+import React from "react";
 import "./Image2.css";
 import Introimg1 from "../assets/img2.jpg";
 import about from "./data.js";
